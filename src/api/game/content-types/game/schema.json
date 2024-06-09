@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "games",
+  "info": {
+    "singularName": "game",
+    "pluralName": "games",
+    "displayName": "Game",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Developer": {
+      "type": "string"
+    },
+    "Publisher": {
+      "type": "string"
+    },
+    "ReleaseDate": {
+      "type": "date"
+    },
+    "Platforms": {
+      "type": "string"
+    },
+    "Genre": {
+      "type": "string"
+    },
+    "Rating": {
+      "type": "decimal"
+    },
+    "Review": {
+      "type": "blocks"
+    }
+  }
+}
